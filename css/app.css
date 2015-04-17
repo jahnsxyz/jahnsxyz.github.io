@@ -1,0 +1,56 @@
+html {
+  background: black;
+}
+section {
+  width: 650px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -175px;
+  margin-left: -325px;
+  overflow: hidden;
+  text-align: center;
+}
+header h1 {
+  font-family: Futura STD, Helvetica Neue LT STD, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  margin-left: -15px;
+  color: transparent;
+  text-shadow: 0px 0px 3px #eee;
+}
+header h1 b {
+  position: relative;
+}
+header h1 b:first-child {
+  top: 1px;
+}
+header h1 b:nth-child(2) {
+  top: 0px;
+}
+header h1 b:nth-child(3) {
+  top: 0px;
+}
+header h1 b:nth-child(4) {
+  top: 0px;
+}
+header h1 b:nth-child(5) {
+  top: 1px;
+  margin-left: 2px;
+}
+video { 
+	position: fixed;
+	right: 0;
+	bottom: -200px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	transition: 1s opacity;
+}
